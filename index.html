@@ -11,17 +11,18 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googlefonts.cn/css?family=Lora|Montserrat"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | Product preview card component</title>
-
   </head>
   <body>
-    <div class="container">
+    <main>
       <img src="images/image-product-desktop.jpg" alt="product" />
       <div class="text">
         <p>PERFUME</p>
@@ -30,7 +31,7 @@
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
-        <p><span class="money">$149.99</span><span>$169.99</span></p>
+        <div><span class="money">$149.99</span><span>$169.99</span></div>
         <button>
           <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -41,7 +42,7 @@
           <span>Add to Cart</span>
         </button>
       </div>
-    </div>
+    </main>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

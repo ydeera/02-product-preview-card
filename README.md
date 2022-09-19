@@ -28,8 +28,11 @@ Users should be able to:
 ### What I learned
 
 - Solve problems before coding
+- A easy way to center items horizontally&vertically in <body>: set <min-height: 100vh>, so that the <body> tag will stretch to all viewport, change <display> (flex or grid), then just use <justify-content: center> and <align-items: center>!
 
 
 ## Acknowledgments
 
 Thanks for the full support of my keyboard. I was not supposed to eat ramen before you, let alone spill the sauce.
+
+Thank @Deniel Den and @Lucas 👾 in Frontend Mentor. Both of your suggestions are very helpful.Happy Coding 😺!
