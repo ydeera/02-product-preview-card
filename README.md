@@ -22,13 +22,14 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Flexbox & Grid
 - Pesticide -- A powerful Chrome plugin
 
 ### What I learned
 
-- Solve problems before coding
-- A easy way to center items horizontally&vertically in <body>: set <min-height: 100vh>, so that the <body> tag will stretch to all viewport, change <display> (flex or grid), then just use <justify-content: center> and <align-items: center>!
+- Solve problems before coding.
+- A easy way to center items horizontally&vertically in `body`: set `min-height: 100vh`, so that the `body`tag will stretch to all viewport, change `display` (flex or grid), then just use `justify-content: center` and `align-items: center`!
+- `margin-top` and `margin-bottom` have no effect on non-replaced inline elements.(So I changed `display` of "$169.99" to `block` to apply `margin-top`)
 
 
 ## Acknowledgments
